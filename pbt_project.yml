@@ -1,0 +1,95 @@
+name: proj_prophecy_training_abhi
+description: ''
+version: 0.0.1
+author: abhijit.khodade@cloudaeon.net
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: projprophecytrainingabhi
+  parentArtefactID: ''
+  buildSystem: wheel
+  author: null
+  createdAt: '2024-12-11 05:45:26'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-12-11 05:45:26'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-12-11T05:45:26.563183Z'
+  name: plibMaven
+  version: 8.5.0
+  id: '1242034849'
+  createdAt: '2024-12-11T05:45:26.563183Z'
+  type: plibMaven
+- modifiedAt: '2024-12-11T05:45:26.563183Z'
+  name: plibPypi
+  version: 1.9.24
+  id: '785020677'
+  createdAt: '2024-12-11T05:45:26.563183Z'
+  type: plibPypi
+projectDependencies:
+  '19668':
+    projectUID: 19668
+    projectName: ProphecySparkAbinitioPython
+    repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/qRkqzzJt_project_19668.git&subPath=
+    version: 0.0.24
+    isDefault: false
+    author: null
+    createdAt: '2024-12-10 06:28:28'
+  '12657':
+    projectUID: 12657
+    projectName: ProphecyWebAppPython
+    repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/DxEheDCJ_project_12657.git&subPath=
+    version: 0.0.8
+    isDefault: false
+    author: null
+    createdAt: '2024-12-10 06:28:28'
+  '32699':
+    projectUID: 32699
+    projectName: ProphecySparkDataQualityPython
+    repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/gLsx7fee_project_32699.git&subPath=
+    version: 0.0.1
+    isDefault: false
+    author: null
+    createdAt: '2024-12-10 06:28:28'
+  '33809':
+    projectUID: 33809
+    projectName: ProphecySparkAlteryxPython
+    repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/xFzzqwWz_project_33809.git&subPath=
+    version: 0.0.3
+    isDefault: false
+    author: null
+    createdAt: '2024-12-10 06:28:28'
+  '12656':
+    projectUID: 12656
+    projectName: ProphecyStreamingPython
+    repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/DxEheDCJ_project_12656.git&subPath=
+    version: 0.0.6
+    isDefault: false
+    author: null
+    createdAt: '2024-12-10 06:28:28'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: false
+pipelineConfigurations: {}
